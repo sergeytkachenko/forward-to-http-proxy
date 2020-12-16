@@ -33,7 +33,7 @@ function connect(req, socket) {
 	proxy_req.end();
 }
 /**
- * Handle http proxy.
+ * Handle http requests.
  * @param req
  * @param res
  */
