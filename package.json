@@ -1,0 +1,19 @@
+{
+  "name": "forward-to-http-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server that redirect to another proxy by custom logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeytkachenko/forward-to-http-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeytkachenko/forward-to-http-proxy/issues"
+  },
+  "homepage": "https://github.com/sergeytkachenko/forward-to-http-proxy#readme"
+}
