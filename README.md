@@ -15,4 +15,4 @@ Run application
 node index.js
 ```
 
-Now proxy listen in 8000 port and redirect all requests to k8s:30880 proxy
+Now proxy listen in `localhost:8000` port and redirect all requests to `k8s:30880` proxy
