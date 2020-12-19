@@ -1,5 +1,6 @@
 {
   "name": "forward-to-http-proxy",
+  "type": "module",
   "version": "1.0.0",
   "description": "Proxy server that redirect to another proxy by custom logic",
   "main": "index.js",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sergeytkachenko/forward-to-http-proxy/issues"
   },
-  "homepage": "https://github.com/sergeytkachenko/forward-to-http-proxy#readme"
+  "homepage": "https://github.com/sergeytkachenko/forward-to-http-proxy#readme",
+  "dependencies": {
+    "iconv": "^3.0.0"
+  }
 }
