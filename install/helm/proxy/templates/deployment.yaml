@@ -22,13 +22,15 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 8000
+              containerPort: 80
               protocol: TCP
           env:
             - name: PROXY_HOST
               value: {{ .Values.env.PROXY_HOST }}
             - name: PROXY_PORT
               value: {{ .Values.env.PROXY_PORT | quote }}
+            - name: PORT
+              value: '80'
           livenessProbe:
             httpGet:
               path: /liveness
