@@ -17,7 +17,5 @@
     "url": "https://github.com/sergeytkachenko/forward-to-http-proxy/issues"
   },
   "homepage": "https://github.com/sergeytkachenko/forward-to-http-proxy#readme",
-  "dependencies": {
-    "iconv": "^3.0.0"
-  }
+  "dependencies": {}
 }
