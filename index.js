@@ -11,3 +11,4 @@ process.on('SIGINT', function() {
 	console.log("Caught interrupt signal");
 	process.exit();
 });
+console.log(`SERVER listen on 8000 port...`);
