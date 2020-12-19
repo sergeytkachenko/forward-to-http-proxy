@@ -2,7 +2,7 @@ import http from "http";
 
 const httpProxyConfig = {
 	host: process.env.PROXY_HOST || 'k8s',
-	port: process.env.PROXY_PORT || 30880,
+	port: parseInt(process.env.PROXY_PORT) || 30880,
 };
 
 /**

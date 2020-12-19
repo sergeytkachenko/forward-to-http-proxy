@@ -24,6 +24,11 @@ spec:
             - name: http
               containerPort: 8000
               protocol: TCP
+          env:
+            - name: PROXY_HOST
+              value: {{ .Values.env.PROXY_HOST }}
+            - name: PROXY_PORT
+              value: {{ .Values.env.PROXY_PORT | quote }}
           livenessProbe:
             httpGet:
               path: /liveness
